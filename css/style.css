@@ -7,3 +7,60 @@
 body {
     font-family: 'Open Sans', sans-serif; 
 }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn {
+    background-color: royalblue;
+    color: white;
+}
+
+/* header  */
+h1 {
+    font-size: 60px;
+}
+
+#menu-principale {
+    width: 100%;
+    line-height: 80px;
+    /* debug  */
+    background-color: pink;
+}
+
+.menu-sx {
+    float: left;
+}
+
+.menu-dx {
+    float: right;
+}
+
+
+/* jumbotron */
+#jumbotron {
+    background-color: skyblue;
+}
+
+#center-jumbo {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#jumbo-dx { 
+    float: left;
+    width: 60%;
+    margin-left: 5%;
+}
+
+#jumbo-sx {
+    float: left;
+    width: 35%;
+}
