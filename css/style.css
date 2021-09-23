@@ -64,3 +64,54 @@ h1 {
     float: left;
     width: 35%;
 }
+
+
+/* main  */
+
+/* sezione 1 */
+
+.container-mid {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.due {
+    margin: 0 5%;
+}
+
+.colonna {
+    float: left;
+    width: 30%;
+    border: 1px solid gray;
+}
+
+.quattro {
+    border: 1px solid gray;
+    margin-top: 30px;
+}
+
+
+#sottocolonna-sx {
+    float: left;
+    width: 60%;
+}
+
+#sottocolonna-dx {
+    float: left;
+    width: 35%;
+}
+
+/* sezione2 */
+#sezione2 {
+    margin: 40px 0;
+}
+#midsx {
+    float: left;
+    width: 50%;
+}
+
+#middx {
+    float: left;
+    width: 10%;
+    padding-left: 5%;
+}
