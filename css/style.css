@@ -49,7 +49,7 @@ h1 {
     background-color: skyblue;
 }
 
-#center-jumbo {
+.center-jumboft {
     width: 80%;
     margin: 0 auto;
 }
@@ -135,16 +135,15 @@ h1 {
 .square {
     float: left;
     width: 50%;
-    height: 200px;
+    height: 250px;
+    position:relative;
 }
 
 .ridimensionatore {
-     padding: 20%;
-}
-.loghi {
-    max-height: 100%;
-    max-width: 100%;
-    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .altsx1 {
@@ -177,4 +176,31 @@ h1 {
 
 .basdx2 {
     background-color: rgb(165, 165, 11);
+}
+
+
+/* sezione6  */
+
+#bgsection6 {
+    background-color: rgb(139, 196, 253);
+}
+
+.titlesx {
+    float: left;
+}
+
+.btn-dx{
+    float:right
+}
+
+/* footer  */
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.colonnafoot{
+    float: left;
+    width: calc(100% / 5);
 }
