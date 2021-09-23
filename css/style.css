@@ -112,6 +112,69 @@ h1 {
 
 #middx {
     float: left;
-    width: 10%;
-    padding-left: 5%;
+    width: 50%;
+    padding-left: 10%;
+}
+
+/* sezione3  */
+
+#sezione3 .colonna {
+    border: none;
+}
+
+/* sezione5  */
+.row-partner {
+    background-color: rgb(194, 210, 226);
+}
+
+.spazio-testo, .spazio-img{
+    float: left;
+    width: calc(100% / 3);
+}
+
+.square {
+    float: left;
+    width: 50%;
+    height: 200px;
+}
+
+.ridimensionatore {
+     padding: 20%;
+}
+.loghi {
+    max-height: 100%;
+    max-width: 100%;
+    
+}
+
+.altsx1 {
+    background-color: springgreen;
+}
+
+.altdx1 {
+    background-color: rgb(82, 15, 7);
+}
+
+.bassx1 {
+    background-color: turquoise;
+}
+
+.basdx1 {
+    background-color: tomato;
+}
+
+.altsx2 {
+    background-color: rgb(153, 24, 24);
+}
+
+.altdx2 {
+    background-color: rgb(139, 196, 253);
+}
+
+.bassx2 {
+    background-color: rgb(31, 31, 146);
+}
+
+.basdx2 {
+    background-color: rgb(165, 165, 11);
 }
