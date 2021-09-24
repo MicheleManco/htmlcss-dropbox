@@ -14,33 +14,64 @@ body {
     clear: both;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+li {
+    list-style: none;
+}
+
 img {
     max-width: 100%;
 }
 
+
 .btn {
     background-color: royalblue;
     color: white;
+    text-align: center;
 }
 
 /* header  */
 h1 {
-    font-size: 60px;
+    font-size: 65px;
+}
+
+.btn.menu-dx {
+    margin: 15px 21px;
+    padding: 5px 18px;
+}
+
+#logo {
+    margin-top: 18px;
 }
 
 #menu-principale {
+    position: fixed;
+    top: 0px;
+    left: 0px;
     width: 100%;
-    line-height: 80px;
-    /* debug  */
-    background-color: pink;
+    background-color: white;
+    /* margin-top: 0; */
 }
+
 
 .menu-sx {
     float: left;
+    padding: 0px 20px;
+    margin-top: 20px;
 }
+
 
 .menu-dx {
     float: right;
+    padding: 0px 20px;
+    margin-top: 20px;
 }
 
 
@@ -51,18 +82,37 @@ h1 {
 
 .center-jumboft {
     width: 80%;
-    margin: 0 auto;
+    margin: 70px auto;
 }
+
+.fa-arrow-down{
+    font-size: 55px;
+}
+
+.jumbobtn{
+    padding: 10px 10px;
+    margin: 10px 0px;
+}
+
 
 #jumbo-dx { 
     float: left;
     width: 60%;
     margin-left: 5%;
+    margin-top: 50px;
 }
 
+#jumbo-sx div {
+    width: 60%;
+}
 #jumbo-sx {
     float: left;
     width: 35%;
+}
+
+#jumbo-sx p {
+    margin: 20px 0;
+    line-height: 20px;
 }
 
 
@@ -75,6 +125,10 @@ h1 {
     margin: 0 auto;
 }
 
+.radios {
+    display: inline-block;
+    margin: 45px 0px 30px 0px;
+}
 .due {
     margin: 0 5%;
 }
@@ -105,6 +159,19 @@ h1 {
 #sezione2 {
     margin: 40px 0;
 }
+
+#middx p{
+    margin: 20px 0px;
+    line-height: 25px;
+}
+
+.black-white {
+    width: 50%;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+}
 #midsx {
     float: left;
     width: 50%;
@@ -114,14 +181,38 @@ h1 {
     float: left;
     width: 50%;
     padding-left: 10%;
+    margin-top: 20px;
 }
 
 /* sezione3  */
+#sezione3 {
+    margin: 150px 0px;
+}
 
 #sezione3 .colonna {
     border: none;
 }
 
+.row h4{
+     margin-bottom: 25px; 
+}
+
+.row p {
+    line-height: 25px;
+}
+
+.row {
+     margin-bottom: 90px; 
+}
+
+/* sezione4 */
+#sezione4 {
+    margin-bottom: 50px;
+}
+
+#sezione4 h2 {
+    margin-bottom: 30px;
+}
 /* sezione5  */
 .row-partner {
     background-color: rgb(194, 210, 226);
@@ -187,10 +278,24 @@ h1 {
 
 .titlesx {
     float: left;
+    width: 40%;
 }
 
-.btn-dx{
-    float:right
+.titlesx h2 {
+    margin: 80px 0px;
+    color: rgb(80, 21, 21);
+}
+
+.btn-bot{
+    float:right;
+    width: 40%;
+}
+
+.btn-bot .btn {
+    margin-top: 80px;
+    padding: 5px 15px;
+    background-color: white;
+    color: black;
 }
 
 /* footer  */
