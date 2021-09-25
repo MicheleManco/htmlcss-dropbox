@@ -26,6 +26,10 @@ h5 {
     font-size: 20px;
 }
 
+h6 {
+    font-size: 16px;
+}
+
 li {
     list-style: none;
 }
@@ -133,8 +137,20 @@ h1 {
 
 .radios {
     display: inline-block;
-    margin: 45px 0px 30px 0px;
+    margin: 45px 20px 30px 0px;
 }
+
+.tabella{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.nome-casella {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 10px 0px;
+}
+
 .due {
     margin: 0 5%;
 }
@@ -142,7 +158,14 @@ h1 {
 .colonna {
     float: left;
     width: 30%;
+    height: 1000px;
     border: 1px solid gray;
+}
+
+.colonna hr {
+    color: gray;
+    width: 20%;
+    margin-bottom: 30px;
 }
 
 .quattro {
@@ -150,11 +173,53 @@ h1 {
     margin-top: 30px;
 }
 
+#sottocolonna-dx .btn {
+    margin-top: 20px;
+    padding: 5px 0px;
+}
+
+#sottocolonna-sx p {
+    margin: 20px 0px;
+}
+
+.h4-tab { 
+    margin: 20px 0px;
+}
+
+.tempo {
+    color: gray;
+    margin: 5px 0 0 0;
+}
+
+.colonna li {
+    padding: 10px 0px;
+}
+
+.colonna ul {
+    margin: 20px 0px;
+}
+
+.d-gratis {
+    padding:5px 0px;
+}
+
+.acquista-ora {
+    margin: 25px 0px;
+}
+
+.acquista-ora a {
+    color: royalblue;
+}
+
+.fa-check {
+    color: royalblue;
+}
 
 #sottocolonna-sx {
     float: left;
     width: 60%;
 }
+
 
 #sottocolonna-dx {
     float: left;
@@ -163,7 +228,7 @@ h1 {
 
 /* sezione2 */
 #sezione2 {
-    margin: 40px 0;
+    margin: 150px 0;
 }
 
 #middx p{
@@ -195,8 +260,9 @@ h1 {
     margin: 150px 0px;
 }
 
-#sezione3 .colonna {
-    border: none;
+.colonna-6 {
+    float: left;
+    width: 30%;
 }
 
 .row h4{
