@@ -287,7 +287,7 @@ h1 {
 }
 /* sezione5  */
 .row-partner {
-    background-color: rgb(194, 210, 226);
+    background-color: rgb(195, 217, 238);
 }
 
 .spazio-testo, .spazio-img{
@@ -304,9 +304,26 @@ h1 {
 
 .ridimensionatore {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 53%;
+    left: 54%;
     transform: translate(-50%, -50%);
+}
+
+.ridimensionatore img {
+   width: 85%;
+}
+
+#partner-evidenza {
+    width: 35%;
+    margin: 60px 0px 30px 0;
+}
+
+.spazio-testo hr {
+    width: 25%;
+    margin-bottom: 50px;
+}
+.spazio-testo p {
+    margin-bottom: 50px ;
 }
 
 .altsx1 {
