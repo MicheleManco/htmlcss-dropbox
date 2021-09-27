@@ -98,10 +98,16 @@ h1 {
 /* jumbotron */
 #jumbotron {
     background-color: skyblue;
-    margin: 60px 0; 
-    padding: 60px 0px; 
+    margin: 60px 0 280px 0px; 
+    padding: 60px 0px 110px 0px; 
+    position: relative;
 }
-/* position relative all'img dentro jumbo  */
+
+#jumbo-dx img {
+    width: 50%;
+    position: absolute;
+    bottom: -135px;
+}
 
 .center-jumboft {
     width: 80%;
@@ -135,7 +141,7 @@ h1 {
 }
 
 #jumbo-sx p {
-    margin: 20px 0;
+    margin: 40px 0;
     line-height: 20px;
 }
 
@@ -429,8 +435,8 @@ footer{
     text-decoration: none;
     color: white;
 }
-/* sezione7 */
 
+/* sezione7 */
 #domande-frequenti{
     margin-bottom: 80px;
     border-bottom: 1px solid gray;
