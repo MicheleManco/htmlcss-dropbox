@@ -60,21 +60,20 @@ h1 {
 }
 
 #menu-principale {
+    border-bottom: 1px solid gray;
+    z-index: 999;
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
     background-color: white;
-    /* margin-top: 0; */
 }
-
 
 .menu-sx {
     float: left;
     padding: 0px 20px;
     margin-top: 20px;
 }
-
 
 .menu-dx {
     float: right;
@@ -86,9 +85,12 @@ h1 {
 /* jumbotron */
 #jumbotron {
     background-color: skyblue;
-    margin: 60px 0;
-    padding: 60px 0px;
+    margin: 60px 0; 
+    padding: 60px 0px; 
+    
 }
+/* position relative all'img dentro jumbo  */
+
 
 .center-jumboft {
     width: 80%;
@@ -311,6 +313,7 @@ h1 {
 
 .ridimensionatore img {
    width: 85%;
+   filter: invert(1);
 }
 
 #partner-evidenza {
@@ -423,6 +426,7 @@ footer{
 
 .others {
     float: right;
+    margin-right: 20px;
 }
 
 /* footer  */
