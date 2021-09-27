@@ -15,16 +15,25 @@
 
     <!-- header con due nav uno a dx e uno a sx +logo +btn-->
     <header id="menu-principale">
-            <div class="clearfix">
-                <img class="menu-sx" id="logo" src="img/logo-small.png" alt="logo drop-box">
-                <div class="menu-sx" >Perch&egrave; Dropbox</div>
-                <div class="menu-sx">Funzioni</div>
-                <div class="menu-sx">Piani e prezzi</div>
-                <div class="btn menu-dx">Inizia</div>   
-                <div class="menu-dx">Accedi</div>
-                <div class="menu-dx">Contatta l'ufficio vendite</div>
-                <div class="menu-dx">Supporto</div>
-            </div>  
+
+                <nav>
+                    <div class="clearfix">
+                        <ul class="navi">
+                            <li> <a href=""><img class="menu-sx" id="logo" src="img/logo-small.png" alt="logo drop-box"></a></li>
+                            <li class="menu-sx" ><a href="">Perch&egrave; Dropbox</a></li>
+                            <li class="menu-sx" ><a href="">Funzioni</a></li>
+                            <li class="menu-sx" ><a href="">Piani e prezzi</a></li>
+                        </ul>
+                        
+                        <ul class="navi">
+                            <li class="btn menu-dx"><a id="white-color" href="">Inizia</a></li>   
+                            <li class="menu-dx"><a href="">Accedi</a></li>
+                            <li class="menu-dx"><a href="">Contatta l'ufficio vendite</a></li>
+                            <li class="menu-dx"><a href="">Supporto</a></li>
+                        </ul>
+                    </div> 
+                </nav>  
+ 
     </header>
 
 
@@ -39,10 +48,10 @@
 
                 <div id="jumbo-sx">
                     <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox business &egrave; pi&uacute; di uno spazio di archiviazione sicuro: &egrave; un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
-                        <div class="btn jumbobtn ">Inizia la prova gratuita</div>
+                        <div class="btn jumbobtn "><a href="">Inizia la prova gratuita</a></div>
                         Annulla in qualsiasi momento
                     </p>
-                    <div><i class="fas fa-arrow-down"></i></div>
+                    <div><a href="#inizio-pagina"><i class="fas fa-arrow-down"></i></a></div>
                 </div>
           
                 <div id="jumbo-dx">
@@ -61,7 +70,7 @@
 
             <!-- 1sezione -->
             <section>
-                <h2>Trova il piano Dropbox Business che fa per te</h2>
+                <h2 id="inizio-pagina">Trova il piano Dropbox Business che fa per te</h2>
 
                 <div>
                     <span class="radios"><input type="radio" name="fatturazione">Fatturazione mensile</span>
@@ -74,7 +83,6 @@
                         <div class="nome-casella">
                             <i class="far fa-user"></i> singolo
                         </div>
-
                         <div class="tabella">
                             <div>
                                 <h4 class="h4-tab">Professional</h4>
@@ -85,7 +93,7 @@
                                     <li><i class="far fa-folder"></i> 3TB di spazio di archiviazione sicuro</li>
                                     <li><i class="fas fa-pencil-alt"></i> funzioni di produttivit&aacute; premium e condivisione file semplice e sicura</li>
                                 </ul>
-                                <div class="btn d-gratis">Prova gratis per 30 giorni</div>
+                                <div class="btn d-gratis"><a href="">Prova gratis per 30 giorni</a></div>
                                 <div class="acquista-ora">oppure <a href="">acquista ora</a></div>
                                 <hr>
                                 <h6>Punti salienti del piano</h6>
@@ -98,7 +106,6 @@
                                 </ul>
                             </div>
                         </div>
-
                     </div>
     
                     <div class="colonna due">
@@ -115,7 +122,7 @@
                                     <li><i class="far fa-folder"></i> 3TB di spazio di archiviazione sicuro</li>
                                     <li><i class="far fa-smile"></i> funzioni di produttivit&aacute; premium e condivisione file semplice e sicura</li>
                                 </ul>
-                                <div class="btn d-gratis">Prova gratis per 30 giorni</div>
+                                <div class="btn d-gratis"><a href="">Prova gratis per 30 giorni</a></div>
                                 <div class="acquista-ora">oppure <a href="">acquista ora</a></div>
                                 <hr>
                                 <h6>Punti salienti del piano</h6>
@@ -145,7 +152,7 @@
                                     <li><i class="far fa-smile"></i> 3TB di spazio di archiviazione sicuro</li>
                                     <li><i class="fas fa-pencil-alt"></i> funzioni di produttivit&aacute; premium e condivisione file semplice e sicura</li>
                                 </ul>
-                                <div class="btn d-gratis">Prova gratis per 30 giorni</div>
+                                <div class="btn d-gratis"><a href="">Prova gratis per 30 giorni</a></div>
                                 <div class="acquista-ora">oppure <a href="">acquista ora</a></div>
                                 <hr>
                                 <h6>Punti salienti del piano</h6>
@@ -176,7 +183,7 @@
                             </div>
                             <div id="sottocolonna-dx">
                                 <div class="btn">
-                                    Contatta l'ufficio vendite
+                                    <a href="">Contatta l'ufficio vendite</a>
                                 </div>
                             </div>
                         </div>
@@ -196,7 +203,7 @@
                     <div id="middx">
                         <h4>Entra in contatto con un partner Dropbox</h4>
                         <p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obbiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui</p>
-                        <div class="btn black-white">Trova un partner</div>
+                        <div class="btn black-white"><a href="">Trova un partner</a></div>
                     </div>
 
                 </div>
@@ -343,8 +350,7 @@
                     </div>
 
                     <div class="btn-bot">
-                        <div class="btn">
-                            inizia la tua prova gratuita
+                        <div class="btn"><a href="">inizia la tua prova gratuita</a>
                         </div>
                     </div>
                 </div>
@@ -397,55 +403,55 @@
                         <div class="colonnafoot">
                             <h5>Dropbox</h5>
                             <ul>
-                                <li>Applicazione desktop</li>
-                                <li>Perche dropbox</li>
-                                <li>Piani</li>
-                                <li>Sicurezza</li>
-                                <li>Funzioni</li>
+                                <li><a href="">Applicazione desktop</a></li>
+                                <li><a href="">Perche dropbox</a></li>
+                                <li><a href="">Piani</a></li>
+                                <li><a href="">Sicurezza</a></li>
+                                <li><a href="">Funzioni</a></li>
                             </ul>
                         </div>
 
                         <div class="colonnafoot">
                             <h5>Dropbox</h5>
                             <ul>
-                                <li>Applicazione desktop</li>
-                                <li>Perche dropbox</li>
-                                <li>Piani</li>
-                                <li>Sicurezza</li>
-                                <li>Funzioni</li>
+                                <li><a href="">Applicazione desktop</a></li>
+                                <li><a href="">Perche dropbox</a></li>
+                                <li><a href="">Piani</a></li>
+                                <li><a href="">Sicurezza</a></li>
+                                <li><a href="">Funzioni</a></li>
                             </ul>
                         </div>
 
                         <div class="colonnafoot">
                             <h5>Dropbox</h5>
                             <ul>
-                                <li>Applicazione desktop</li>
-                                <li>Perche dropbox</li>
-                                <li>Piani</li>
-                                <li>Sicurezza</li>
-                                <li>Funzioni</li>
+                                <li><a href="">Applicazione desktop</a></li>
+                                <li><a href="">Perche dropbox</a></li>
+                                <li><a href="">Piani</a></li>
+                                <li><a href="">Sicurezza</a></li>
+                                <li><a href="">Funzioni</a></li>
                             </ul>
                         </div>
 
                         <div class="colonnafoot">
                             <h5>Dropbox</h5>
                             <ul>
-                                <li>Applicazione desktop</li>
-                                <li>Perche dropbox</li>
-                                <li>Piani</li>
-                                <li>Sicurezza</li>
-                                <li>Funzioni</li>
+                                <li><a href="">Applicazione desktop</a></li>
+                                <li><a href="">Perche dropbox</a></li>
+                                <li><a href="">Piani</a></li>
+                                <li><a href="">Sicurezza</a></li>
+                                <li><a href="">Funzioni</a></li>
                             </ul>
                         </div>
 
                         <div class="colonnafoot">
                             <h5>Dropbox</h5>
                             <ul>
-                                <li>Applicazione desktop</li>
-                                <li>Perche dropbox</li>
-                                <li>Piani</li>
-                                <li>Sicurezza</li>
-                                <li>Funzioni</li>
+                                <li><a href="">Applicazione desktop</a></li>
+                                <li><a href="">Perche dropbox</a></li>
+                                <li><a href="">Piani</a></li>
+                                <li><a href="">Sicurezza</a></li>
+                                <li><a href="">Funzioni</a></li>
                             </ul>
                         </div>
                     </div>
