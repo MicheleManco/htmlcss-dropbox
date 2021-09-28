@@ -1,0 +1,478 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: royalblue;
+    text-align: center;
+}
+
+/* header  */
+h1 {
+    font-size: 65px;
+}
+
+.navi a { 
+    text-decoration: none;
+    color: black;
+}
+
+.btn.menu-dx {
+    margin: 15px 21px;
+    padding: 5px 18px;
+}
+
+#white-color {
+    color: white;
+}
+
+#logo {
+    margin-top: 18px;
+}
+
+#menu-principale {
+    border-bottom: 1px solid gray;
+    z-index: 999;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: white;
+}
+
+.menu-sx {
+    float: left;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+
+.menu-dx {
+    float: right;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+
+
+/* jumbotron */
+#jumbotron {
+    background-color: skyblue;
+    margin: 60px 0 280px 0px; 
+    padding: 60px 0px 110px 0px; 
+    position: relative;
+}
+
+#jumbo-dx img {
+    width: 50%;
+    position: absolute;
+    bottom: -135px;
+}
+
+.center-jumboft {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.fa-arrow-down{
+    color: black;
+    font-size: 55px;
+}
+
+.jumbobtn{
+    padding: 10px 10px;
+    margin: 10px 0px;
+}
+
+
+#jumbo-dx { 
+    float: left;
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+
+#jumbo-sx div {
+    width: 60%;
+}
+#jumbo-sx {
+    float: left;
+    width: 35%;
+}
+
+#jumbo-sx p {
+    margin: 40px 0;
+    line-height: 20px;
+}
+
+
+/* main  */
+
+/* sezione 1 */
+
+.container-mid {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.radios {
+    display: inline-block;
+    margin: 45px 20px 30px 0px;
+}
+
+.tabella{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.nome-casella {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 10px 0px;
+}
+
+.due {
+    margin: 0 5%;
+}
+
+.colonna {
+    float: left;
+    width: 30%;
+    height: 1000px;
+    border: 1px solid gray;
+}
+
+.colonna hr {
+    color: gray;
+    width: 20%;
+    margin-bottom: 30px;
+}
+
+.quattro {
+    border: 1px solid gray;
+    margin-top: 30px;
+}
+
+#sottocolonna-dx .btn {
+    margin-top: 20px;
+    padding: 5px 0px;
+}
+
+#sottocolonna-sx p {
+    margin: 20px 0px;
+}
+
+.h4-tab { 
+    margin: 20px 0px;
+}
+
+.tempo {
+    color: gray;
+    margin: 5px 0 0 0;
+}
+
+.colonna li {
+    padding: 10px 0px;
+}
+
+.colonna ul {
+    margin: 20px 0px;
+}
+
+.d-gratis {
+    padding:5px 0px;
+}
+
+.acquista-ora {
+    margin: 25px 0px;
+}
+
+.acquista-ora a {
+    color: royalblue;
+}
+
+.fa-check {
+    color: royalblue;
+}
+
+#sottocolonna-sx {
+    float: left;
+    width: 60%;
+}
+
+
+#sottocolonna-dx {
+    float: left;
+    width: 35%;
+}
+
+/* sezione2 */
+#sezione2 {
+    margin: 150px 0;
+}
+ 
+.black-white a {
+    color: black;
+} 
+
+#middx p{
+    margin: 20px 0px;
+    line-height: 25px;
+}
+
+.black-white {
+    width: 50%;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+}
+#midsx {
+    float: left;
+    width: 50%;
+}
+
+#middx {
+    float: left;
+    width: 50%;
+    padding-left: 10%;
+    margin-top: 20px;
+}
+
+/* sezione3  */
+#sezione3 {
+    margin: 150px 0px;
+}
+
+.colonna-6 {
+    float: left;
+    width: 30%;
+}
+
+.row h4{
+     margin-bottom: 25px; 
+}
+
+.row p {
+    line-height: 25px;
+}
+
+.row {
+     margin-bottom: 90px; 
+}
+
+/* sezione4 */
+#sezione4 {
+    margin-bottom: 50px;
+}
+
+#sezione4 h2 {
+    margin-bottom: 30px;
+}
+/* sezione5  */
+.row-partner {
+    background-color: rgb(195, 217, 238);
+}
+
+.spazio-testo, .spazio-img{
+    float: left;
+    width: calc(100% / 3);
+}
+
+.square {
+    float: left;
+    width: 50%;
+    height: 250px;
+    position:relative;
+}
+
+.ridimensionatore {
+    position: absolute;
+    top: 53%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+}
+
+.ridimensionatore img {
+   width: 85%;
+   filter: invert(1);
+}
+
+#partner-evidenza {
+    width: 35%;
+    margin: 60px 0px 30px 0;
+}
+
+.spazio-testo hr {
+    width: 25%;
+    margin-bottom: 50px;
+}
+.spazio-testo p {
+    margin-bottom: 50px ;
+}
+
+.altsx1 {
+    background-color: springgreen;
+    border: 10px solid greenyellow;
+}
+
+.altdx1 {
+    background-color: rgb(82, 15, 7);
+}
+
+.bassx1 {
+    background-color: turquoise;
+}
+
+.basdx1 {
+    background-color: tomato;
+}
+
+.altsx2 {
+    background-color: rgb(153, 24, 24);
+}
+
+.altdx2 {
+    background-color: rgb(139, 196, 253);
+}
+
+.bassx2 {
+    background-color: rgb(31, 31, 146);
+}
+
+.basdx2 {
+    background-color: rgb(165, 165, 11);
+}
+
+
+/* sezione6  */
+
+#bgsection6 {
+    background-color: rgb(139, 196, 253);
+}
+
+.btn-bot a {
+    color: black;
+}
+
+.titlesx {
+    float: left;
+    width: 40%;
+}
+
+.titlesx h2 {
+    margin: 80px 0px;
+    color: rgb(80, 21, 21);
+}
+
+.btn-bot{
+    float:right;
+    width: 40%;
+}
+
+.btn-bot .btn {
+    margin-top: 80px;
+    padding: 5px 15px;
+    background-color: white;
+    color: black;
+    width: 240px;
+}
+
+/* footer  */
+
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+}
+
+.colonnafoot{
+    float: left;
+    width: calc(100% / 5);
+}
+
+.colonnafoot a {
+    text-decoration: none;
+    color: white;
+}
+
+/* sezione7 */
+#domande-frequenti{
+    margin-bottom: 80px;
+    border-bottom: 1px solid gray;
+}
+
+#domande-frequenti h4 {
+    margin: 80px 0px 40px;
+}
+
+.lines {
+    border-top: 1px solid gray;
+    line-height: 70px;
+}
+
+.domande {
+    float: left;
+}
+
+.others {
+    float: right;
+    margin-right: 20px;
+}
+
+/* footer  */
+.colonnafoot h5 {
+    margin-bottom: 20px;
+}
+
+.colonnafoot li {
+    line-height: 30px;
+}
+
+#lingua {
+    width: 15%;
+    border-top: 1px solid white;
+    padding: 45px 0 30px 0px;
+    margin-top: 70px;
+    font-size: 13px;
+}
