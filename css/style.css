@@ -171,7 +171,7 @@ h1 {
     padding: 10px 0px;
 }
 
-.due {
+.middle {
     margin: 0 5%;
 }
 
@@ -458,6 +458,10 @@ footer{
 .others {
     float: right;
     margin-right: 20px;
+}
+
+.domande p {
+    
 }
 
 /* footer  */
